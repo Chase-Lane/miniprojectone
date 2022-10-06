@@ -1,0 +1,53 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+header {
+    background-color: white;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+   
+}
+
+body {
+    background-color: rgb(199, 195, 195);
+    
+   
+}
+
+.textboxes {
+    font-weight: bolder;
+    display: block;
+    position: relative;
+    top: 200px;
+    font-size: 22px;
+    text-align: left;
+    
+}
+
+.links {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: grey;
+}
+
+#item-1 {
+    
+    display: inline;
+    background-color: aliceblue;
+  
+  }
+  
+  #item-2 {
+    background-color: aliceblue;
+    display: inline;
+  }
+  
+  #item-3 {
+    background-color: aliceblue;
+    display: inline;
+  }
