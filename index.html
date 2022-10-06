@@ -10,48 +10,46 @@
 
 
 <header>
-    <h1>Contact Us</h1>
+    <h1 id="toplayout"> Contact Us</h1>
 
-    <h2>Fill out the form below!</h2>
+    <h2 id="toplayout"> Fill out the contact form below!</h2>
     <nav>
         <ul class="links">
             <li id="item-1"> <a href="#">Home</a></li>
             <li id="item-2"> <a href="#">About Us</a></li>
-            <li id="item-3"> <a href="#">Contact Us</a></li>
+            <li id="item-3"> <a href="http(s)://Chase-Lane.github.io/miniprojectone">Contact Us</a></li>
         </ul>
     </nav>
 </header>
 
 <body>
 
-    <p style="background-image: url('./assets/pexels-jakub-novacek-924824.jpg');" 
-    alt="background image of gray background"> 
-    <section>
-        <table class="textboxes"> 
-            <tr> 
-                <td>Your Name</td><td><input type="text"> </td>
-            </tr>
-            <tr> 
-                <td>Email</td><td><input type="email"> </td>
-            </tr> 
-            <tr> 
-                <td>Phone Number</td><td><input type="text" pattern="[0-9]"> </td>
-            </tr>
-            <tr>
-                <td></td>
-            </tr>
-            <tr> 
-                <td><button id="button"> Sumbit </button> </td>
-            </tr>
-        </table> 
+    <p style="background-image: url('./assets/pexels-tim-mossholder-2096622.jpg');"
+        alt="background image of gray background">
 
+    <section>
+
+        <form class="textboxes">
+            <label for="fname">Your Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <br>
+            <label for="lname">Email</label><br>
+            <input type="email" id="lname" name="lname"> <br>
+            <br>
+            <button id="button"> Send </button>
+        </form>
+
+
+       
 
     </section>
 
     <footer>
-
+        <p> Founded 2018</p>
 
     </footer>
+
 </body>
+
 
 </html>
