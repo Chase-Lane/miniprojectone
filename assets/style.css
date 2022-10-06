@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(74, 75, 75);
     left: 0px;
     position: fixed;
     top: 0px;
@@ -46,15 +46,14 @@ footer {
     text-align: right;
     font-size: 20px;
     font-weight: bolder;
-    background-color: rgb(29, 28, 28);
     color: white;
+    background-color: white;
 }
 
 #item-1 {
 
     display: inline;
-
-
+    
 }
 
 #item-2 {
@@ -94,7 +93,7 @@ footer {
   align-items: center;
   appearance: none;
   background-color: #fff;
-  border-radius: 26px;
+  border-radius: 30px;
   border-style: none;
   box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
   box-sizing: border-box;
