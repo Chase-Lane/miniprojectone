@@ -1,2 +1,2 @@
 # miniprojectone
-First Mini Project
+First Mini Project Week 1
